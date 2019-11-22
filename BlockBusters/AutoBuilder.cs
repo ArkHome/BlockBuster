@@ -106,7 +106,7 @@ namespace JENKINS
             }
 
             return null;
-            JENKINS.AutoBuilder.PerformWindowsMixedRealityBuild();
+         
         }
         
 
