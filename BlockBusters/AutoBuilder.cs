@@ -3,8 +3,6 @@ using UnityEditor;
 using System.Collections;
 using System.Collections.Generic;
 using System;
-#if UNITY_EDITOR
-
 using UnityEditor.Build.Reporting;
 
 namespace JENKINS
@@ -108,7 +106,11 @@ namespace JENKINS
             }
 
             return null;
+            JENKINS.AutoBuilder.PerformWindowsMixedRealityBuild();
         }
+        
+
     }
+    
 }
-#endif
+
